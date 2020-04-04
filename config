@@ -53,3 +53,14 @@ alias ll='ls -alh'
 # %(!.#.>) show # when root user, > otherwise 
 #
 PROMPT='%(?.%F{green}✓.%F{red}✗)%f %B%F{38}%2~%f%b %(!.#.>) '
+
+### Git integration
+# Load plugin
+autoload -Uz vcs_info
+# Setup Armin's Git function
+precmd_vcs_info() { vcs_info }
+precmd_functions+=( precmd_vcs_info )
+setopt prompt_subst
+RPROMPT=\$vcs_info_msg_0_
+zstyle ':vcs_info:git:*' formats '%F{38}%BBranch: %b%f'
+zstyle ':vcs_info:*' enable git
