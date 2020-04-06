@@ -1,6 +1,7 @@
-### zshrc - Josep Jesus Bigorra Algaba
+### zshrc - Josep Jesus Bigorra Algaba ###
 
-### Directory Navigation
+
+### Directory Navigation ###
 # Change directory when path entered without `cd`
 setopt AUTO_CD
 
@@ -10,7 +11,8 @@ setopt NO_CASE_GLOB
 # Advanced completion
 autoload -Uz compinit && compinit
 
-### History Command Options
+
+### History Command Options ###
 # More info in the history command
 setopt EXTENDED_HISTORY
 
@@ -32,17 +34,20 @@ setopt HIST_REDUCE_BLANKS
 # Double check before !!
 setopt HIST_VERIFY
 
-### Command correction in zsh
+
+### Command correction in zsh ###
 # Correct commands
 setopt CORRECT
 
 # Correct all arguments
 setopt CORRECT_ALL
 
-### Aliases
+
+### Aliases ###
 alias ll='ls -alh'
 
-### Prompt Customizations
+
+### Prompt Customizations ###
 # %(?.✓.✗) if return code ? is 0 show ✓, else show ✗
 # %? exit code of previous command
 # %2~ current working dir, shortening home to ~, showin last 2 elements
@@ -54,7 +59,8 @@ alias ll='ls -alh'
 #
 PROMPT='%(?.%F{green}✓.%F{red}✗)%f %B%F{38}%2~%f%b %(!.#.>) '
 
-### Git integration
+
+### Git integration ###
 # Load plugin
 autoload -Uz vcs_info
 # Setup Armin's Git function
@@ -64,3 +70,15 @@ setopt prompt_subst
 RPROMPT=\$vcs_info_msg_0_
 zstyle ':vcs_info:git:*' formats '%F{38}%BBranch: %b%f'
 zstyle ':vcs_info:*' enable git
+
+
+### zsh-autosuggestions ###
+if [[ -r ~/workspace/zsh-plugins/zsh-autosuggestions/zsh-autosuggestions.zsh ]]; then
+	source ~/workspace/zsh-plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+fi
+
+
+### zsh-syntax-highlighting !!LOAD ME LAST!!###
+if [[ -r ~/workspace/zsh-plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]; then
+	source ~/workspace/zsh-plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fi
