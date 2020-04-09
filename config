@@ -84,3 +84,10 @@ fi
 if [[ -r ~/workspace/zsh-plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]; then
 	source ~/workspace/zsh-plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
+
+# Run on new shell
+if [ `which fortune` ]; then
+    echo ""
+    fortune
+    echo ""
+fi
