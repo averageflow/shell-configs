@@ -56,8 +56,10 @@ alias ll='ls -alh'
 # %F{} text color
 # %f reset to default text color
 # %(!.#.>) show # when root user, > otherwise 
+# %n username
+# %m hostname
 #
-PROMPT='%(?.%F{green}✓.%F{red}✗)%f %B%F{38}%2~%f%b %(!.#.>) '
+PROMPT='%(?.%F{green}✓.%F{red}✗)%f %B%F{cyan}%n@%m%f%b %B%F{38}%2~%f%b %(!.#.>) '
 
 
 ### Git integration ###
