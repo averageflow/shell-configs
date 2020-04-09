@@ -86,7 +86,7 @@ if [[ -r ~/workspace/zsh-plugins/zsh-syntax-highlighting/zsh-syntax-highlighting
 fi
 
 # Run on new shell
-if [ `which fortune` ]; then
+if [[ `which fortune` ]]; then
     echo ""
     fortune
     echo ""
