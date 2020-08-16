@@ -1,4 +1,11 @@
-My z-shell configuration. To install follow these steps:
+# ZSH Config
+
+My prefered zsh configuration, made from scratch, thoughtful choices.
+End result should be something like below:
+
+![Example Image](example.png)
+
+To install follow these steps:
 
 ```
 cd
