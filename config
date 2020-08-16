@@ -35,14 +35,6 @@ setopt HIST_REDUCE_BLANKS
 setopt HIST_VERIFY
 
 
-### Command correction in zsh ###
-# Correct commands
-setopt CORRECT
-
-# Correct all arguments
-setopt CORRECT_ALL
-
-
 ### Aliases ###
 alias ll='ls -alh'
 
@@ -91,3 +83,9 @@ if [[ `which fortune` ]]; then
     fortune
     echo ""
 fi
+
+# Go development
+export GOPATH="${HOME}/.go"
+export GOROOT="$(brew --prefix golang)/libexec"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
+export GOPRIVATE="bitbucket.org/prowarehouse-nl/*"
