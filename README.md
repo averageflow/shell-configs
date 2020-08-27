@@ -1,7 +1,9 @@
-# ZSH Config
+# Shell Configs
 
-My prefered zsh configuration, made from scratch, thoughtful choices.
+This repo contains my favourite shell configurations, made from scratch, thoughtful choices.
 End result should be something like below:
+
+## ZSH
 
 ![Example Image](example.png)
 
