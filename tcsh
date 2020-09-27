@@ -12,8 +12,8 @@ alias la	ls -aF
 alias lf	ls -FA
 alias ll	ls -lAF
 alias nano vi
-alias php /usr/local/Cellar/php/7.4.8/bin/php
-alias composer /usr/local/Cellar/php/7.4.8/bin/php /usr/local/bin/composer
+
+
 # These are normally set through /etc/login.conf.  You may override them here
 # if wanted.
 # set path = (/sbin /bin /usr/sbin /usr/bin /usr/local/sbin /usr/local/bin $HOME/bin)
@@ -46,6 +46,6 @@ if ($?prompt) then
 endif
 
 
-# Go development
-setenv GOPATH $HOME/.go
-set path = (/sbin /bin /usr/sbin /usr/bin /usr/local/sbin /usr/local/bin $HOME/bin $GOPATH/bin)
+# Set PATH variable
+
+set path = (/sbin /bin /usr/sbin /usr/bin /usr/local/sbin /usr/local/bin $HOME/bin /Users/joe/development/SDKs/go1.15.2/bin)
