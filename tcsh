@@ -11,8 +11,8 @@ alias j		jobs -l
 alias la	ls -aF
 alias lf	ls -FA
 alias ll	ls -lAF
-alias nano vi
-
+alias nano 	vi
+alias php	/Applications/MAMP/bin/php/php7.4.2/bin/php
 
 # These are normally set through /etc/login.conf.  You may override them here
 # if wanted.
@@ -49,4 +49,4 @@ endif
 
 # Set PATH variable
 
-set path = (/sbin /bin /usr/sbin /usr/bin /usr/local/sbin /usr/local/bin $HOME/bin /Users/joe/development/SDKs/go1.15.2/bin)
+set path = (/sbin /bin /usr/sbin /usr/bin /usr/local/sbin /usr/local/bin $HOME/bin /Users/joe/development/SDKs/go1.15.2/bin /Applications/MAMP/bin/php/php7.4.2/bin)
