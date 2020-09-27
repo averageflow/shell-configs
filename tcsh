@@ -1,10 +1,10 @@
-# $FreeBSD: releng/12.1/share/skel/dot.cshrc 337497 2018-08-08 19:24:20Z asomers $
-#
-# .cshrc - csh resource script, read at beginning of execution by each shell
-#
-# see also csh(1), environ(7).
-# more examples available at /usr/share/examples/csh/
-#
+
+
+
+
+
+
+
 
 alias h		history 25
 alias j		jobs -l
@@ -13,6 +13,8 @@ alias lf	ls -FA
 alias ll	ls -lAF
 alias nano 	vi
 alias php	/Applications/MAMP/bin/php/php7.4.2/bin/php
+alias composer	/Applications/MAMP/bin/php/php7.4.2/bin/php /Applications/MAMP/bin/php/php7.4.2/bin/composer.phar 
+
 
 # These are normally set through /etc/login.conf.  You may override them here
 # if wanted.
