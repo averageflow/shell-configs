@@ -23,6 +23,7 @@ alias nano vi
 
 setenv	EDITOR	vi
 setenv	PAGER	less
+setenv GOPATH /Users/joe/development/SDKs/go
 
 if ($?prompt) then
 	# An interactive shell -- set some stuff up
