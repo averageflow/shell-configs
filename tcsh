@@ -6,6 +6,7 @@ alias ll	ls -lAF
 alias nano 	vi
 alias php	/Applications/MAMP/bin/php/php7.4.2/bin/php
 alias composer	/Applications/MAMP/bin/php/php7.4.2/bin/php /Applications/MAMP/bin/php/php7.4.2/bin/composer.phar 
+alias mysqldump /Applications/MAMP/Library/bin/mysqldump
 
 setenv	EDITOR	vi
 setenv	PAGER	less
