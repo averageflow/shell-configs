@@ -7,6 +7,7 @@ My currently favourite shell is `fish`. In order to set it up follow the below i
 - Download the installer `.pkg` file for macOS from [official site](https://fishshell.com) or whatever instructions are necessary for your chosen Operating System.
 - Change your default shell in macOS to `fish` with `chsh -s /usr/local/bin/fish`.
 - Install Oh My Fish with `curl -L https://get.oh-my.fish | fish`
+- Set bob the fish theme with `omf install bobthefish`
 - Download `Fira Code Nerd` font from [nerdfonts](https://www.nerdfonts.com/font-downloads).
 - Install the fonts to your macOS system by dragging them to the Font Book app.
 - Run `fish_config` to open the web based configuration for fish shell and select the Base16 Eighties color scheme.
