@@ -16,4 +16,7 @@ My currently favourite shell is `fish`. In order to set it up follow the below i
 - Quit any iTerm instances and re-start the shell
 
 You should have a beautiful shell by now:
+
 ![showcase-0](0.png)
+
+![showcase-1](1.png)
