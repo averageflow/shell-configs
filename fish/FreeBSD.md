@@ -1,25 +1,32 @@
 # Fish shell on FreeBSD
 
+
+- Install the fish shell with:
+```
 su
 pkg install fish
-
+```
 - `chsh -s /usr/local/bin/fish`
-- Install Oh My Fish with `curl -L -k https://get.oh-my.fish | fish`
-
+- Install CA certificates if not done before: `pkg install ca_root_nss`
+- Install cURL if not done before: `pkg install curl`
+- Install Git if not done before: `pkg install git`
+- Install Oh My Fish with `curl -L https://get.oh-my.fish | fish`
 - Set bob the fish theme with `omf install bobthefish`
+- Add to ~/.config/fish/config.fish:
 
-- Add to ~/.config/fish/config.fish
-
+```
 set theme_color_scheme gruvbox
 set LC_CTYPE en_US.UTF-8
+```
 
-# If is a server with Go
+- If is a server with Go:
+```
 set PATH /usr/local/go/bin/go $PATH
-
 alias go="/usr/local/go/bin/go"
+```
 
 - Replace ~/.config/fish/fish_variables content with
-
+```
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
@@ -52,7 +59,7 @@ SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
-
+```
 
 
 
