@@ -4,4 +4,6 @@ set PATH /Users/joe/Development/SDKs/go1.15.2/bin $PATH
 set PATH /Applications/MAMP/bin/php/php7.4.2/bin $PATH
 set PATH /Users/joe/Development/SDKs/go/bin $PATH
 
-alias composer="/Applications/MAMP/bin/php/php7.4.2/bin/php /Applications/MAMP/bin/php/php7.4.2/bin/composer.phar" 
+alias composer="/Applications/MAMP/bin/php/php7.4.2/bin/php /Applications/MAMP/bin/php/php7.4.2/bin/composer.phar"
+
+alias nano="vi" 
