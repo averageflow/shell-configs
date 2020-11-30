@@ -11,7 +11,7 @@ pkg install fish
 - Install cURL if not done before: `pkg install curl`
 - Install Git if not done before: `pkg install git`
 - Install Oh My Fish with `curl -L https://get.oh-my.fish | fish`
-- Set bob the fish theme with `omf install bobthefish`
+- Set bob the fish theme with `omf install lambda`
 - Add to ~/.config/fish/config.fish:
 
 ```

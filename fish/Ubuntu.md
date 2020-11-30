@@ -58,4 +58,4 @@ SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 
 - Install Oh My Fish with `curl -L https://get.oh-my.fish | fish`
 
-- Set bob the fish theme with `omf install bobthefish`
+- Set bob the theme with `omf install lambda`
