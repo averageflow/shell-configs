@@ -2,7 +2,8 @@ set theme_color_scheme gruvbox
 set LC_CTYPE en_US.UTF-8
 set LC_ALL en_US.UTF-8
 set LANG en_US.UTF-8
-set PATH /Users/joe/Development/SDKs/go1.15.2/bin $PATH
+set GOPATH /Users/joe/Development/SDKs/go
+set PATH /Users/joe/Development/SDKs/go1.15.6/bin $PATH
 set PATH /Applications/MAMP/bin/php/php7.4.2/bin $PATH
 set PATH /Users/joe/Development/SDKs/go/bin $PATH
 set PATH /Users/joe/bin $PATH
