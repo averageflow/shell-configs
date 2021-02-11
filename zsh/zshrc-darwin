@@ -1,0 +1,36 @@
+# Path to your oh-my-zsh installation.
+export ZSH="/Users/joe/.oh-my-zsh"
+
+ZSH_THEME="lambda-gitster"
+
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
+# Preferred editor for local and remote sessions
+ if [[ -n $SSH_CONNECTION ]]; then
+   export EDITOR='vi'
+ else
+   export EDITOR='vi'
+ fi
+
+# Variables
+export LANG="en_US.UTF-8"
+export LC_CTYPE="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8"
+export GOPATH="/Users/joe/Development/SDKs/go"
+export GROOVY_HOME="/Users/joe/Development/SDKs/groovy-3.0.7"
+
+# Path expansion
+export PATH="/Users/joe/Development/SDKs/go1.15.6/bin:$PATH"
+export PATH="/Applications/MAMP/bin/php/php7.4.2/bin:$PATH"
+export PATH="/Users/joe/Development/SDKs/go/bin:$PATH"
+export PATH="/Users/joe/bin:$PATH"
+export PATH="/Users/joe/Development/SDKs/groovy-3.0.7/bin:$PATH"
+export PATH="/Users/joe/Development/SDKs/sass:$PATH"
+
+# Aliases
+alias composer="/Applications/MAMP/bin/php/php7.4.2/bin/php /Applications/MAMP/bin/php/php7.4.2/bin/composer.phar"
+
+alias nano="vi"
