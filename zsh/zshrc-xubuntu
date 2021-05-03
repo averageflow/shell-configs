@@ -26,4 +26,5 @@ alias gocoverage="go tool cover -html=coverage.out"
 alias nano="vim"
 alias vi="vim"
 alias multipull="find . -mindepth 1 -maxdepth 1 -type d -print -exec git -C {} pull \;"
+alias gitRefreshTags="git tag -d $(git tag -l) && git fetch"
 

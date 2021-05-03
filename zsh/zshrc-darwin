@@ -40,4 +40,5 @@ alias composer="/Applications/MAMP/bin/php/php7.4.2/bin/php /Applications/MAMP/b
 alias gocoverage="go tool cover -html=coverage.out"
 alias nano="vi"
 alias multipull="find . -mindepth 1 -maxdepth 1 -type d -print -exec git -C {} pull \;"
+alias gitRefreshTags="git tag -d $(git tag -l) && git fetch"
 
