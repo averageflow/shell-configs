@@ -23,7 +23,10 @@ export PATH="/home/joe/go/bin:$PATH"
 
 # Aliases
 alias gocoverage="go tool cover -html=coverage.out"
-alias nano="vim"
-alias vi="vim"
+alias nano="nvim"
+alias vi="nvim"
 alias multipull="find . -mindepth 1 -maxdepth 1 -type d -print -exec git -C {} pull \;"
+alias ls="exa"
+alias ll="exa -lh"
+alias cat="batcat"
 
