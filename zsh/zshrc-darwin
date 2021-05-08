@@ -35,6 +35,12 @@ export PATH="/Users/joe/Development/SDKs/groovy-3.0.7/bin:$PATH"
 export PATH="/Users/joe/Development/SDKs/sass:$PATH"
 export PATH="/Users/joe/.local/bin:$PATH"
 
+# Functions
+function gitRefreshTags() {
+	git tag -d $(git tag -l)
+	git fetch
+}
+
 # Aliases
 alias composer="/Applications/MAMP/bin/php/php7.4.2/bin/php /Applications/MAMP/bin/php/php7.4.2/bin/composer.phar"
 alias gocoverage="go tool cover -html=coverage.out"

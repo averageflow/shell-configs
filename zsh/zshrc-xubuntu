@@ -21,6 +21,13 @@ export LC_ALL="en_US.UTF-8"
 export PATH="/usr/local/go/bin:$PATH"
 export PATH="/home/joe/go/bin:$PATH"
 
+# Functions 
+# Functions
+function gitRefreshTags() {
+        git tag -d $(git tag -l)
+        git fetch
+}
+
 # Aliases
 alias gocoverage="go tool cover -html=coverage.out"
 alias nano="nvim"
